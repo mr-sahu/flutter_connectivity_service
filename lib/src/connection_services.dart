@@ -16,7 +16,7 @@ class ConnectionServices extends GetxController {
       : config = config ?? const ConnectionConfig() {
     _connectivity = Connectivity();
   }
-
+// changes for onInit made by Ritesh Sahu
   @override
   void onInit() {
     super.onInit();
