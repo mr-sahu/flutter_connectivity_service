@@ -17,7 +17,8 @@ in ![img.png](img.png)
 
 ## see given image below to use this package
 ## Example
-! [Example Screenshot] (example_pic/example_pic.png)
+![Example Screenshot](example_pic/example_pic.png)
+
 
 
 ## Installation
