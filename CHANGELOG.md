@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.4] - 2025-11-25
+## [1.0.5] - 2025-11-25
 ### Added
 - Added custom timeout option when checking connectivity.
 - Added method to force refresh current connection status.
