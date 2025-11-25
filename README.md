@@ -2,6 +2,8 @@
 
 A comprehensive Flutter package for managing network connectivity with real-time monitoring, automatic reconnection detection, and user-friendly snackbar notifications.
 
+in ![img.png](img.png)
+
 ## Features
 
 - 🔄 Real-time connectivity monitoring
@@ -12,6 +14,11 @@ A comprehensive Flutter package for managing network connectivity with real-time
 - ⚡ Lightweight and efficient
 - 🛡️ Graceful error handling
 - 🎯 Easy to integrate and use
+
+## see given image below to use this package
+## Example
+![Example Image](example/example_pic.png)
+
 
 ## Installation
 
