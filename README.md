@@ -15,20 +15,21 @@ A comprehensive Flutter package for managing network connectivity with real-time
 - 🎯 Easy to integrate and use
 
 
-## How to use this package,see below 
-# Add these two lines in main().
-# WidgetsFlutterBinding.ensureInitialized() and Get.put(ConnectionServices());  just below void main()
-# see below 
+# How to use this package,see below 
+## Add these two lines in main().
+## WidgetsFlutterBinding.ensureInitialized() and Get.put(ConnectionServices());  just below void main()
+## see below 
 
 void main() {
-WidgetsFlutterBinding.ensureInitialized();  <============== write only these two line in main after adding package in pubspec.yaml
-Get.put(ConnectionServices());       <====================== 
+WidgetsFlutterBinding.ensureInitialized();  
+Get.put(ConnectionServices()); 
 runApp(const MyApp());
 }
 ## see given image below to use this package
 
 Example
 ! example_pic.png (example_pic/example_pic.png)
+### Callbacks
 
 
 
@@ -38,4 +39,4 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_connectivity_service: ^2.0.1
+  flutter_connectivity_service: ^2.0.2
