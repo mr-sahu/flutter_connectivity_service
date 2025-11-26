@@ -27,8 +27,11 @@ runApp(const MyApp());
 }
 ## see given image below to use this package
 
-Example
-! example_pic.png (example_pic/example_pic.png)
+## Example
+
+See the image below to use this package:
+
+![Example Usage](example_pic/example_pic.png)
 ### Callbacks
 
 
@@ -39,4 +42,4 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_connectivity_service: ^2.0.2
+  flutter_connectivity_service: ^2.0.3
