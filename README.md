@@ -2,7 +2,6 @@
 
 A comprehensive Flutter package for managing network connectivity with real-time monitoring, automatic reconnection detection, and user-friendly snackbar notifications.
 
-in ![img.png](img.png)
 
 ## Features
 
@@ -15,9 +14,21 @@ in ![img.png](img.png)
 - 🛡️ Graceful error handling
 - 🎯 Easy to integrate and use
 
+
+## How to use this package,see below 
+# Add these two lines in main().
+# WidgetsFlutterBinding.ensureInitialized() and Get.put(ConnectionServices());  just below void main()
+# see below 
+
+void main() {
+WidgetsFlutterBinding.ensureInitialized();  <============== write only these two line in main after adding package in pubspec.yaml
+Get.put(ConnectionServices());       <====================== 
+runApp(const MyApp());
+}
 ## see given image below to use this package
-## Example
-![Example Screenshot](example_pic/example_pic.png)
+
+Example
+! example_pic.png (example_pic/example_pic.png)
 
 
 
@@ -27,4 +38,4 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_connectivity_service: ^1.0.2
+  flutter_connectivity_service: ^2.0.1
