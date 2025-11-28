@@ -210,7 +210,6 @@ class ConnectionServices extends GetxController {
   StreamSubscription? _streamSubscription;
   bool _isGetXReady = false;
   Timer? _readyCheckTimer;
-  bool _isInitialCheck = true; // Track if this is the first connection check
 
   final ConnectionConfig config;
 
@@ -246,11 +245,10 @@ class ConnectionServices extends GetxController {
     try {
       final connectivityResult = await _connectivity.checkConnectivity();
       final results = _normalizeConnectivityResult(connectivityResult);
+      // Just update the state without showing snackbars on initial check
       _updateConnectionState(results, isInitialCheck: true);
-      _isInitialCheck = false; // Mark that initial check is complete
     } catch (e) {
       debugPrint('Error checking initial connection: $e');
-      _isInitialCheck = false;
     }
   }
 
