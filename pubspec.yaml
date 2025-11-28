@@ -1,6 +1,6 @@
 name: flutter_connectivity_service
 description: A comprehensive Flutter package for managing network connectivity with real-time monitoring, automatic reconnection, and user-friendly snackbar notifications.
-version: 2.0.4
+version: 2.0.5
 homepage: https://github.com/mr-sahu/flutter_connectivity_service.git
 
 environment:
