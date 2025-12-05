@@ -44,4 +44,4 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_connectivity_service: ^2.0.5
+  flutter_connectivity_service: ^2.1.0
