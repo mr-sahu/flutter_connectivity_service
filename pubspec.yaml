@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   get: ^4.6.5
-  connectivity_plus: ^5.0.2
+  connectivity_plus: ^7.0.0
 
 dev_dependencies:
   flutter_test:
